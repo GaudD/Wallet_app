@@ -7,7 +7,16 @@ module.exports = {
     "../../packages/ui/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderWidth: {
+        '0': '0',
+        '2': '2px',
+        '3': '3px'
+      },
+      backgroundColor: {
+        'mingrey': '#424242'
+      }
+    }
   },
   plugins: [],
 }
