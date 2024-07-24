@@ -7,4 +7,9 @@ module.exports = {
   parserOptions: {
     project: true,
   },
+  overrides: [
+    {
+      excludedFiles: "tailwind.config.js"
+    }
+  ]
 };
